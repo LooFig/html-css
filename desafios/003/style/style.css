@@ -59,6 +59,17 @@ nav {
 }
 
 main {
+
+    /* responsivo */
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: white;
 }
 
@@ -70,6 +81,18 @@ main h1 {
 
 main h2 {
     font-family: var(--font-android);
+}
+
+/*  */
+
+main img{
+    width: 100%;
+}
+
+.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 footer {
